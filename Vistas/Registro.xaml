@@ -143,7 +143,6 @@
                 Placeholder="Ingrese Edad" 
                 Grid.Row="1" 
                 Grid.Column="2"/>
-            
         </Grid>
 
         <Grid>
@@ -167,8 +166,6 @@
                 Clicked="btnResumen_Clicked"
                 Grid.Row="1" 
                 Grid.Column="1"/>    
-
-
         </Grid>
 
 
