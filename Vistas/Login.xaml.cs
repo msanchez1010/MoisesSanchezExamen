@@ -32,6 +32,6 @@ public partial class Login : ContentPage
 
     private void btnAcerca_Clicked(object sender, EventArgs e)
     {
-
+        Navigation.PushAsync(new AcercaDe());
     }
 }

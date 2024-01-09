@@ -35,37 +35,103 @@
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
 
+            <Label 
+                Text="Nombre:"
+                FontSize="20"
+                Grid.Row="0"
+                Grid.Column="0"/>
+            
             <Label
                 x:Name="lblNombre"
                 Text="Nombre:"
                 FontSize="20"
                 Grid.Row="0"
-                Grid.Column="0"/>
+                Grid.Column="1"/>
 
+            <Label 
+                Text="Apellido:"
+                FontSize="20"
+                Grid.Row="1"
+                Grid.Column="0"/>
+            
             <Label 
                 x:Name="lblApellido"
                 Text="Apellido:"
                 FontSize="20"
                 Grid.Row="1"
-                Grid.Column="0"/>
+                Grid.Column="1"/>
 
+            <Label 
+                Text="Edad:"
+                FontSize="20"
+                Grid.Row="2"
+                Grid.Column="0"/>
+            
             <Label 
                 x:Name="lblEdad"
                 Text="Edad:"
                 FontSize="20"
                 Grid.Row="2"
+                Grid.Column="1"/>
+
+            <Label 
+                Text="Fecha:"
+                FontSize="20"
+                Grid.Row="3"
                 Grid.Column="0"/>
+
+            <Label 
+                x:Name="lblFecha"
+                FontSize="20"
+                Grid.Row="3"
+                Grid.Column="1"/>
+
+            <Label 
+                Text="Ciudad:"
+                FontSize="20"
+                Grid.Row="4"
+                Grid.Column="0"/>
+
+            <Label 
+                x:Name="lblCiudad"
+                FontSize="20"
+                Grid.Row="4"
+                Grid.Column="1"/>
+
+            <Label 
+                Text="Pais:"
+                FontSize="20"
+                Grid.Row="5"
+                Grid.Column="0"/>
+
+            <Label 
+                x:Name="lblPais"
+                FontSize="20"
+                Grid.Row="5"
+                Grid.Column="1"/>
+
+            <Label 
+                Text="Monto Inicial:"
+                FontSize="20"
+                Grid.Row="6"
+                Grid.Column="0"/>
+
+            <Label 
+                x:Name="lblMontoInicial"
+                FontSize="20"
+                Grid.Row="6"
+                Grid.Column="1"/>
 
             <Label 
                 Text="Pago Mensual:"
                 FontSize="20"
-                Grid.Row="3"
+                Grid.Row="7"
                 Grid.Column="0"/>
 
             <Label 
                 x:Name="lblPagoMensual"
                 FontSize="20"
-                Grid.Row="3"
+                Grid.Row="7"
                 Grid.Column="1"/>
 
         </Grid>

@@ -27,7 +27,12 @@ public partial class Registro : ContentPage
 
     private void btnResumen_Clicked(object sender, EventArgs e)
     {
-        // Aquí puedes pasar la información necesaria a la página de Resumen
-        Navigation.PushAsync(new Resumen(lblUsuario.Text, txtNombre.Text, txtApellido.Text, txtEdad.Text, entryPagoMensual.Text));
+        
+        Navigation.PushAsync(new Resumen(lblUsuario.Text, txtNombre.Text, txtApellido.Text, txtEdad.Text, dpFecha.Date.ToString("d"), pkCiudad.SelectedItem?.ToString(), pkPais.SelectedItem?.ToString(), txtMontoInicial.Text, entryPagoMensual.Text));
     }
-}   
+
+    private void Button_Clicked(object sender, EventArgs e)
+    {
+
+    }
+}

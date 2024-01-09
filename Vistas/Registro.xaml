@@ -3,6 +3,16 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MoisesSanchezExamen.Vistas.Registro"
              Title="Registro">
+
+
+    <NavigationPage.TitleView>
+        <StackLayout Orientation="Horizontal" VerticalOptions="End">
+
+            <Button Text="Cerrar Sesión"
+                Clicked="Button_Clicked"/>
+        </StackLayout>
+    </NavigationPage.TitleView>
+
     <VerticalStackLayout Spacing="20" Padding="25">
         <Label 
             x:Name="lblUsuario"
@@ -168,6 +178,8 @@
                 Grid.Column="1"/>    
         </Grid>
 
+
+        
 
     </VerticalStackLayout>
 </ContentPage>
