@@ -20,7 +20,6 @@
             <Grid.RowDefinitions>
                 <RowDefinition/>
                 <RowDefinition/>
-                <RowDefinition/>
             </Grid.RowDefinitions>
 
             <Grid.ColumnDefinitions>
@@ -50,6 +49,7 @@
                    Grid.Column="1"
                    IsPassword="True"
                    Margin="0,0,0,20"/>
+        </Grid>
 
             <Button x:Name="btnIniciar"
                     Text="INICIAR SESIÓN"
@@ -61,7 +61,7 @@
 
 
 
-        </Grid>
+        
 
     </VerticalStackLayout>
 </ContentPage>
